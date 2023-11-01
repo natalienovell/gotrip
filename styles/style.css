@@ -1,0 +1,221 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: inter;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header-nav {
+    background: #3E8989;;
+    padding: 15px 0;
+}
+
+.header-nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav ul {
+    display: flex;
+    gap: 82px;
+}
+
+.logo {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.header-nav ul a {
+    color: #FFF;
+    font-size: 25px;
+}
+.header-nav ul li {
+    transition: 500ms;
+}
+.header-nav ul li:hover {
+    transform: scale(1.1);
+}
+
+
+.header {
+    background: url(../images/pic.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    gap: 145px;
+    color: white;
+}
+
+.header-content a {
+    color: #000000;
+    font-size: 35px;
+    font-weight: 700;
+    border-radius: 10px;
+    background: #ff5151;
+    padding: 10px 24px;
+    transition: 500ms;
+    color: white;
+}
+
+.header-content a:hover {
+    color: rgb(255, 255, 255);
+    background: rgb(0, 54, 119);
+    transform: scale(1.1);
+}
+.about {
+    background-color: #00314a;
+    padding: 30px 0 112px;
+}
+.title {
+    color: #FFF;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 49px; 
+}
+.about .container {
+    display: flex;
+    gap: 106px;
+    align-items: center;
+    color: #FFF;
+}
+
+.about-content p {
+    font-size: 18px;
+    max-width: 466px;
+    text-align: justify;
+    flex-direction: row;
+}
+
+.works {
+    background: #ffffff;
+    padding: 43px 0 70px;
+}
+
+.works h2 {
+    color: #3E8989;
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.works-card {
+    width: 280px;
+    border-radius: 10px;
+    background: #EFEFEF;
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    align-items: center;
+    padding: 15px 15px 27px;
+    color: white;
+}
+.works-card p {
+    color: #000;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.works .container {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    gap: 30px 10px;
+}
+footer {
+    background: #3E8989;
+    padding: 47px 0 55px;
+}
+.footer .title{
+    font-weight: 400;
+    
+}
+.footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+
+.container p{
+    display: flex;
+    flex-direction: column;
+    }
+
+    .box1 h3 {
+        color: #3E8989;
+        font-family: Inter;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+
+    }
+
+    .box1-content {
+        color: #000;
+        font-family: Rubik;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+    }
+    .box2-content {
+        color: #000;
+        font-family: Rubik;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        display: flex;
+        flex-direction: column;
+
+    }
+.section1 {
+display: flex;
+justify-content: space-evenly;
+}
+
+.works-card input[type="button"] {
+    background-color: #04a7ff; /* Цвет фона кнопки */
+    color: white; /* Цвет текста кнопки */
+    border: none; /* Убираем границу кнопки */
+    padding: 10px 20px; /* Отступы внутри кнопки */
+    text-align: center; /* Выравнивание текста по центру */
+    text-decoration: none; /* Убираем подчеркивание текста */
+    display: inline-block; /* Отображаем кнопку как блочный элемент */
+    font-size: 16px; /* Размер шрифта кнопки */
+    cursor: pointer; /* Изменяем вид курсора при наведении на кнопку */
+    border-radius: 5px; /* Скругляем углы кнопки */
+  }
+  
+  .works-card input[type="button"]:hover {
+    background-color: #ff5353; /* Изменяем цвет фона кнопки при наведении */
+  }
+
